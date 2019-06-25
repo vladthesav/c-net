@@ -1,0 +1,14 @@
+#include <stdio.h>
+	struct matrix{
+		int n;
+		int m;
+
+		float **mat;};
+int main(){
+
+
+
+
+
+
+}
