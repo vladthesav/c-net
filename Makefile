@@ -1,6 +1,6 @@
 perceptron: perceptron.c
-	gcc -o perceptron perceptron.c -lm
+	gcc -Wall -o perceptron perceptron.c -lm -fsanitize=address
 matrix: matrix.c
-	gcc -o matrix matrix.c -lm
+	gcc -Wall -o matrix matrix.c -lm -fsanitize=address
 datagen: datagen.c
-	gcc -o datagen datagen.c -lm
+	gcc -Wall -o datagen datagen.c -lm -fsanitize=address
